@@ -1,0 +1,27 @@
+.box_main {
+    font-size: 11pt;
+    line-height: 120%;
+    padding: 10px;
+    margin: 12px;
+    width: 305px;
+    border-radius: 6px;
+    border: 1px solid #477062;
+    background-color: #c5efe2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  }
+
+  .box_val {
+    color: #3636df;
+    font-weight: bold;
+  }
+
+  .box_temp {
+    color: #ded8ff;
+    color: #a2e6b4;
+    color: #ead7e2;
+    color: #ededc5;
+    color: #dddbeb;
+    
+    font-weight: bold;
+    line-height: 95%;
+  }

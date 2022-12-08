@@ -1,0 +1,15 @@
+<div class="box_main" [style.background-color]= xtabArg.col>
+    <img src="assets/angular.svg" height="60px" style="float: right"/>
+    This is the Angular [<b>box2</b>] component from the box2.component.ts file.<br/> 
+    External info: {{field_info1}} {{scount}}, {{xtabArg.sinfo}} <br/>
+    Internal: Txt field: <a class="box_val">{{asFilter}}</a>; 
+    Counter: <a class="box_val">{{aiCounter1}}</a><br/>
+
+    <section>
+        <form style="padding: 6px;">
+        <input type="text" placeholder="Filter text" #filter value="Start" 
+          style="background-color: #edf0f1; border: 1px solid #888; width:160px;"/>&#160;
+        <button class="primary" type="button" (click)="filterResults(filter.value)">Show data</button>
+        </form>
+    </section>
+</div>
